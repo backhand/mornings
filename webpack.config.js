@@ -1,7 +1,16 @@
-var path = require('path')
-var webpack = require('webpack')
+'use strict';
+
+const path = require('path')
+const webpack = require('webpack')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  plugins: [
+    new CopyWebpackPlugin([
+      { from: 'src/index.html' },
+      { from: 'src/assets', to: 'assets' }
+    ])
+  ],
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),

@@ -15,31 +15,31 @@ export default {
       items: [{
         offset: '06:50',
         text: 'Ud af fjerene',
-        image: './dist/pug.jpg'
+        image: 'assets/pug.jpg'
       },{
         offset: '06:55',
         text: 'Tøj på',
-        image: './dist/pug-dressed.jpg'
+        image: 'assets/pug-dressed.jpg'
       },{
         offset: '07:00',
         text: 'Spis morgenmad',
-        image: './dist/pug-eat.jpg'
+        image: 'assets/pug-eat.jpg'
       },{
         offset: '07:20',
         text: 'Tisse af ',
-        image: './dist/pug-toilet.jpg'
+        image: 'assets/pug-toilet.jpg'
       },{
         offset: '07:25',
         text: 'Børst tænder',
-        image: './dist/pug-toothbrush.jpg'
+        image: 'assets/pug-toothbrush.jpg'
       },{
         offset: '07:30',
         text: 'Overtøj på',
-        image: './dist/pug-jacket.jpg'
+        image: 'assets/pug-jacket.jpg'
       },{
         offset: '07:35',
         text: 'Ud af døren',
-        image: './dist/pug-bike.jpg'
+        image: 'assets/pug-bike.jpg'
       }/*,{
         offset: '8:00',
         text: 'Timen starter'
